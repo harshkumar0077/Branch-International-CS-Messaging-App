@@ -2,8 +2,17 @@
  A support chat app. (Assignment of Branch International)
  This project has been created using the **MERN stack**.
 
- 
+ ## Screenshots
+### Admin Login Page
  ![image](https://github.com/harshkumar0077/Branch-International-CS-Messaging-App/assets/77497612/243b4a77-5e8e-4ecf-9f28-439d1cd30c59)
+### Admin Dashboard
+![adminDashboard](https://github.com/harshkumar0077/Branch-International-CS-Messaging-App/assets/77497612/db27d666-0865-4bca-89a4-887cfcc45611)
+### Customer Request Page
+![userRequest](https://github.com/harshkumar0077/Branch-International-CS-Messaging-App/assets/77497612/e5b0b6ac-7ab4-4b49-b75c-feff632e6a92)
+### Customer Chat Interface
+![userDashboard](https://github.com/harshkumar0077/Branch-International-CS-Messaging-App/assets/77497612/2cc9fa1e-2594-4453-978b-d1148bac2963)
+
+
 
 The Client repository contains the Frontend made using ReactJS.
 The Server Folder contains the Backend made using NodeJS, ExpressJS, MongoDB & Socket.io
