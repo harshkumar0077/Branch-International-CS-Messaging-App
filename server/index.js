@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://Customerservice.vercep.app"],
+    origin: ["https://branch-international-cs-messaging-app-5gou.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
   })
