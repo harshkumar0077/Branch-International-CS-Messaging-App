@@ -70,14 +70,15 @@ function Login() {
     <div
       style={{
         backgroundColor: "#4fcdff",
+        paddingTop: "70px",
       }}
     >
-      <img
+      {/* <img
         alt="logo"
         src={BranchLogo}
         style={{ height: "2.8rem", margin: "16px 90px" }}
-      />
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      /> */}
+      <div style={{ display: "flex", flexDirection: "row", height: "100vh" }}>
         <FormContainer>
           <form onSubmit={(event) => handleSubmit(event)}>
             <div className="brand">

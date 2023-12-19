@@ -1,5 +1,5 @@
 # Support Chat
- A support chat app. (Assignment of Branch International)
+ A support chat app.
  This project has been created using the **MERN stack**.
 
  ## Screenshots
