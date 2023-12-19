@@ -9,13 +9,7 @@ const socket = require("socket.io");
 
 const app = express();
 
-app.use(
-  cors({
-    origin: ["https://branch-international-cs-messaging-app-5gou.vercel.app"],
-    methods: ["POST", "GET"],
-    credentials: true,
-  })
-);
+app.use(cors());
 app.use(express.json());
 
 app.use("/api/auth", userRoutes);
