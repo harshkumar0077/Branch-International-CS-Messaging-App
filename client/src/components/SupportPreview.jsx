@@ -4,9 +4,7 @@ import styled from "styled-components";
 export default function SupportPreview({ user, message, time, handleClick }) {
   return (
     <Container onClick={handleClick}>
-      <div className="msg-sender">
-        <h4>{user}</h4>
-      </div>
+      <div className="msg-sender">{/* <h4>{user}</h4> */}</div>
       <div className="msg-preview">
         {message.length > 300 ? message.substring(0, 300) + "..." : message}
       </div>

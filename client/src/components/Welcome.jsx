@@ -69,7 +69,7 @@ export default function Welcome({ currentUser, socket }) {
       >
         {allRequests.map((request) => (
           <SupportPreview
-            user={request.user.name}
+            // user={request.user.name}
             message={request.messages[0].message}
             time={new Date(request.createdAt).toLocaleString("en-IN")}
             key={request._id}
