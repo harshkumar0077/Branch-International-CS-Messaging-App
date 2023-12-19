@@ -34,7 +34,7 @@ const server = app.listen(port, () => {
 
 const io = socket(server, {
   cors: {
-    origin: "https://customer-service-messaging-3cue4qmko.vercel.app",
+    origin: "https://customer-service-messaging-app.vercel.app",
     credentials: true,
   },
 });
